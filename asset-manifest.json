@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/crud-pre-app-0523/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/crud-pre-app-0523/static/js/main.ac51cb86.chunk.js",
+    "main.js.map": "/crud-pre-app-0523/static/js/main.ac51cb86.chunk.js.map",
+    "runtime-main.js": "/crud-pre-app-0523/static/js/runtime-main.3b1729d9.js",
+    "runtime-main.js.map": "/crud-pre-app-0523/static/js/runtime-main.3b1729d9.js.map",
+    "static/js/2.bc864809.chunk.js": "/crud-pre-app-0523/static/js/2.bc864809.chunk.js",
+    "static/js/2.bc864809.chunk.js.map": "/crud-pre-app-0523/static/js/2.bc864809.chunk.js.map",
+    "index.html": "/crud-pre-app-0523/index.html",
+    "precache-manifest.ade3510ceb1d928b7c90a2a6f7df0b03.js": "/crud-pre-app-0523/precache-manifest.ade3510ceb1d928b7c90a2a6f7df0b03.js",
+    "service-worker.js": "/crud-pre-app-0523/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/crud-pre-app-0523/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.bc864809.chunk.js.LICENSE.txt": "/crud-pre-app-0523/static/js/2.bc864809.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b1729d9.js",
+    "static/js/2.bc864809.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.ac51cb86.chunk.js"
+  ]
+}
