@@ -1,26 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+const App = () => {
+  const [users, setUsers] = React.useState([
+    {
+      name: "satou",
+      age: 25,
+      email: "sat@gmail.com"
+    },
+    {
+      name: "abe",
+      age: 40,
+      email: "hiroshi@yahoo.co.jp"
+    }
+  ])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      {
+        users.map((user, index)=>(
+          <>
+            <p>名前 : {user.name}</p>
+            <p>年齢 : {user.age}</p>
+            <button onClick={()=>{
+              const newUsers = users.slice()
+              newUsers[index].age -= 1
+              setUsers(newUsers)
+            }}>-</button>
+            <button onClick={()=>{
+            const newUsers = users.slice()
+            newUsers[index].age += 1
+            setUsers(newUsers)
+
+            }}>+</button>
+            <p>メール : {user.email}</p>
+            <hr />
+          </>
+        ))
+      }
+    </>
+  )
 }
+
 
 export default App;
